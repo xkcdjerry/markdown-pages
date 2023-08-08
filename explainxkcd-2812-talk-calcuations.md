@@ -8,7 +8,7 @@ Since the power gotten from running a cable from the Sun the Earth is ridiculous
 
 I googled some numbers and turned up with those:
 
-60%~70% for energy efficiency (defined as output divided by input energy)
+80%~90% for DOD (depth of discharge) of Lithium batteries
 
 0.4 MJ/kg for energy density (Lithium Manganese Oxide battery per [this website](https://www.epectec.com/batteries/chemistry/))
 
@@ -18,10 +18,10 @@ Since I can't find any data on the depth of the gravity well from the sun to Ear
 
 Plugging it into the speed-energy formula gives us:
 
-$$E_{launch}=\dfrac{1}2v_{escape}^2\dfrac{E_{stored}*\eta}{0.4MJ/kg}$$
+$$E_{launch}=\dfrac{1}2v_{escape}^2\dfrac{E_{stored}}{0.4MJ/kg}$$
 
-Which [works out to](https://www.wolframalpha.com/input?i=1%2F2*%28617.5km%2Fs%29%5E2*70%25%2F%280.4MJ%2Fkg%29) $E_{launch}=3.34 \times 10^5 E_{stored}$ for $\eta=70\%$ and $v_escape=617.5 km/s$.
+Which [works out to](https://www.wolframalpha.com/input?i=1%2F2*%28617.5km%2Fs%29%5E2%2F%280.4MJ%2Fkg%29) $E_{launch}=4.77 \times 10^5 E_{stored}$ for $v_{escape}=617.5 km/s$. Translating to $E_{launch}= 5.3 \times 10^5 E_{usable}$ for a 90% percent DOD.
 
-That'll give a total efficiency of $\sim 3 \times 10^{-6}$, which is *much* better than the power lines and even saves you some extra money compared to putting it on Earth! (66 bucks a year compared to 58)
+That'll give a total efficiency of $\sim 1.89 \times 10^{-6}$, which is *much* better than the power lines but still falls slightly short of the power you can get from just putting the panel on Earth (41.58 bucks a year compared to 58) but could possibly beat it if a more precise required velocity can be found.
 
-...though I'm not optimistic about the payback period.
+Though even if it did beat the Earth sunpanel I'm not overtly optimistic about the payback period.
