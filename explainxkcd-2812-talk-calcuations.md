@@ -22,4 +22,6 @@ $$E_{launch}=\dfrac{1}2v_{escape}^2\dfrac{E_{stored}*\eta}{0.4MJ/kg}$$
 
 Which [works out to](https://www.wolframalpha.com/input?i=1%2F2*%28617.5km%2Fs%29%5E2*70%25%2F%280.4MJ%2Fkg%29) $E_{launch}=3.34 \times 10^5 E_{stored}$ for $\eta=70\%$ and $v_escape=617.5 km/s$.
 
-That'll give a total efficiency of $\sim 3 \times 10^{-6}$, which is *much* better than the power lines. ~~Sounds like Randall's suggestion wasn't so far fetched, I'll try and run the calculations for Phobos some time soon.~~
+That'll give a total efficiency of $\sim 3 \times 10^{-6}$, which is *much* better than the power lines and even saves you some extra money compared to putting it on Earth! (66 bucks a year compared to 58)
+
+...though I'm not optimistic about the payback period.
